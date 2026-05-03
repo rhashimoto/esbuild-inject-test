@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>esbuild inject test</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "@babel/standalone": "./.yarn/unplugged/@babel-standalone-npm-7.29.3-2ea89a8a53/node_modules/@babel/standalone/babel.js"
+      }
+    }
+  </script>
+  <script src="./dist/test.js" type="module"></script>
+</head>
+<body>
+  <h1>bundled test</h1>
+  <div><a href="./unbundled.html">Go to unbundled test</a></div>  
+  <div><a href="./bundled.html">Go to bundled test</a></div>  
+  <hr>
+</body>
+</html>

@@ -1,4 +1,20 @@
 {
   "name": "esbuild-inject-test",
-  "packageManager": "yarn@4.14.1"
+  "packageManager": "yarn@4.14.1",
+  "scripts": {
+    "start": "web-dev-server",
+    "build": "node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6",
+    "esbuild": "^0.28.0"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.29.3"
+  },
+  "dependenciesMeta": {
+    "@babel/standalone@7.29.3": {
+      "unplugged": true
+    }
+  }
 }

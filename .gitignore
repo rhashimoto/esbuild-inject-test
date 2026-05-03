@@ -15,3 +15,5 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
+
+!.yarn/unplugged/@babel-standalone-npm-7.29.3-2ea89a8a53
