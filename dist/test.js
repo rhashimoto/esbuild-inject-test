@@ -31,7 +31,7 @@ var require_babel = __commonJS({
       typeof exports === "object" && typeof module !== "undefined" ? factory(exports) : typeof define === "function" && define.amd ? define(["exports"], factory) : (global2 = typeof globalThis !== "undefined" ? globalThis : global2 || self, factory(global2.Babel = {}));
     })(exports, (function(exports2) {
       "use strict";
-      var NodePath_context = /* @__PURE__ */ Object.freeze({
+      var NodePath_context = Object.freeze({
         __proto__: null,
         get _call() {
           return _call;
@@ -100,7 +100,7 @@ var require_babel = __commonJS({
           return visit;
         }
       });
-      var _babel = /* @__PURE__ */ Object.freeze({
+      var _babel = Object.freeze({
         __proto__: null,
         get DEFAULT_EXTENSIONS() {
           return DEFAULT_EXTENSIONS;
@@ -10166,7 +10166,7 @@ var require_babel = __commonJS({
         deprecationWarning$1("SpreadProperty", "SpreadElement", "The node type ");
         return spreadElement$2(argument);
       }
-      var b = /* @__PURE__ */ Object.freeze({
+      var b = Object.freeze({
         __proto__: null,
         anyTypeAnnotation: anyTypeAnnotation$2,
         argumentPlaceholder,
@@ -12617,7 +12617,7 @@ var require_babel = __commonJS({
       if (browser$1$1.env.BABEL_TYPES_8_BREAKING) {
         console.warn("BABEL_TYPES_8_BREAKING is not supported anymore. Use the latest Babel 8.0.0 pre-release instead!");
       }
-      var t_1 = /* @__PURE__ */ Object.freeze({
+      var t_1 = Object.freeze({
         __proto__: null,
         ACCESSOR_TYPES,
         ALIAS_KEYS,
@@ -28713,7 +28713,7 @@ var require_babel = __commonJS({
         }
         return cls;
       }
-      var index$5 = /* @__PURE__ */ Object.freeze({
+      var index$5 = Object.freeze({
         __proto__: null,
         parse: parse$4,
         parseExpression,
@@ -29401,7 +29401,7 @@ var require_babel = __commonJS({
         program: program$1,
         ast: smart.ast
       });
-      var index$4 = /* @__PURE__ */ Object.freeze({
+      var index$4 = Object.freeze({
         __proto__: null,
         default: template$2,
         expression,
@@ -30977,7 +30977,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
       var ExistentialTypeParam = ["ExistsTypeAnnotation"];
       var NumericLiteralTypeAnnotation = ["NumberLiteralTypeAnnotation"];
       var ForAwaitStatement = ["ForOfStatement"];
-      var virtualTypes = /* @__PURE__ */ Object.freeze({
+      var virtualTypes = Object.freeze({
         __proto__: null,
         BindingIdentifier,
         BlockScoped,
@@ -31474,7 +31474,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
       exports2.isNumericLiteralTypeAnnotation = function isNumericLiteralTypeAnnotation() {
         throw new Error("`path.isNumericLiteralTypeAnnotation()` has been renamed to `path.isNumberLiteralTypeAnnotation()` in Babel 7.");
       };
-      var NodePath_virtual_types_validator = /* @__PURE__ */ Object.freeze({
+      var NodePath_virtual_types_validator = Object.freeze({
         __proto__: null,
         isBindingIdentifier,
         isBlockScoped: isBlockScoped$1,
@@ -31748,7 +31748,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
       function environmentVisitor(visitor2) {
         return merge([_environmentVisitor, visitor2]);
       }
-      var visitors$2 = /* @__PURE__ */ Object.freeze({
+      var visitors$2 = Object.freeze({
         __proto__: null,
         environmentVisitor,
         explode: explode$1,
@@ -32018,7 +32018,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         if (!paths) pathsCache.set(node2, paths = /* @__PURE__ */ new Map());
         return paths;
       }
-      var cache$1 = /* @__PURE__ */ Object.freeze({
+      var cache$1 = Object.freeze({
         __proto__: null,
         clear,
         clearPath,
@@ -35764,7 +35764,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         }
         return parentId === 68 && parent.left === node2 && node2.name === "async" && !parent["await"];
       }
-      var parens = /* @__PURE__ */ Object.freeze({
+      var parens = Object.freeze({
         __proto__: null,
         ArrowFunctionExpression: ConditionalExpression$2,
         AssignmentExpression: AssignmentExpression$2,
@@ -38717,7 +38717,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         this.token("</");
         this.tokenChar(62);
       }
-      var generatorFunctions = /* @__PURE__ */ Object.freeze({
+      var generatorFunctions = Object.freeze({
         __proto__: null,
         AnyTypeAnnotation,
         ArgumentPlaceholder,
@@ -39047,7 +39047,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         }
         this.token(endToken);
       }
-      var deprecatedGeneratorFunctions = /* @__PURE__ */ Object.freeze({
+      var deprecatedGeneratorFunctions = Object.freeze({
         __proto__: null,
         DecimalLiteral,
         Noop,
@@ -40271,7 +40271,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         var printer = new Printer(format, map, ast.tokens, typeof code2 === "string" ? code2 : null);
         return printer.generate(ast);
       }
-      var index$2 = /* @__PURE__ */ Object.freeze({
+      var index$2 = Object.freeze({
         __proto__: null,
         default: generate$1,
         generate: generate$1
@@ -40705,7 +40705,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
           }
         }
       }
-      var inferers = /* @__PURE__ */ Object.freeze({
+      var inferers = Object.freeze({
         __proto__: null,
         ArrayExpression,
         ArrowFunctionExpression: Func,
@@ -41286,7 +41286,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         var hoister = new PathHoister(this, scope2);
         return hoister.run();
       };
-      var NodePath_modification = /* @__PURE__ */ Object.freeze({
+      var NodePath_modification = Object.freeze({
         __proto__: null,
         _containerInsert,
         _containerInsertAfter,
@@ -42421,7 +42421,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         });
         return count === -1 ? node2.params.length : count;
       }
-      var NodePath_conversion = /* @__PURE__ */ Object.freeze({
+      var NodePath_conversion = Object.freeze({
         __proto__: null,
         arrowFunctionToExpression,
         ensureBlock,
@@ -42796,7 +42796,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         });
         return !!strictParent;
       }
-      var NodePath_introspection = /* @__PURE__ */ Object.freeze({
+      var NodePath_introspection = Object.freeze({
         __proto__: null,
         _guessExecutionStatusRelativeTo,
         _resolve,
@@ -43889,7 +43889,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         });
       };
       traverse.cache = cache$1;
-      var index$1 = /* @__PURE__ */ Object.freeze({
+      var index$1 = Object.freeze({
         __proto__: null,
         Hub,
         NodePath: NodePath_Final,
@@ -46098,7 +46098,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
       function addSideEffect(path2, importedSource, opts) {
         return new ImportInjector(path2).addSideEffect(importedSource, opts);
       }
-      var src$3 = /* @__PURE__ */ Object.freeze({
+      var src$3 = Object.freeze({
         __proto__: null,
         ImportInjector,
         addDefault,
@@ -46581,7 +46581,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         if (start < 0) start = str.length + start;
         return str.substr(start, len);
       };
-      var _polyfillNode_path = /* @__PURE__ */ Object.freeze({
+      var _polyfillNode_path = Object.freeze({
         __proto__: null,
         basename,
         default: path$1,
@@ -47300,7 +47300,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
           return InitTemplate["default"](params);
         }, initExpr));
       }
-      var src$2 = /* @__PURE__ */ Object.freeze({
+      var src$2 = Object.freeze({
         __proto__: null,
         buildDynamicImport,
         buildNamespaceInitStatements,
@@ -47313,7 +47313,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         rewriteThis,
         wrapInterop
       });
-      var require$$0$4 = /* @__PURE__ */ getAugmentedNamespace(src$2);
+      var require$$0$4 = getAugmentedNamespace(src$2);
       babel7Helpers.getModuleName = function() {
         return require$$0$4.getModuleName;
       };
@@ -53272,7 +53272,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         v23,
         v24
       };
-      var require$$4$2 = /* @__PURE__ */ getAugmentedNamespace(_polyfillNode_path);
+      var require$$4$2 = getAugmentedNamespace(_polyfillNode_path);
       function BrowserslistError$2(message2) {
         this.name = "BrowserslistError";
         this.message = message2;
@@ -54545,7 +54545,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         };
         return _createClass(OptionValidator2);
       })();
-      var src$1 = /* @__PURE__ */ Object.freeze({
+      var src$1 = Object.freeze({
         __proto__: null,
         OptionValidator,
         findSuggestion
@@ -56455,7 +56455,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         outputDecimalWarning(decimalWarnings);
         return result;
       }
-      var src = /* @__PURE__ */ Object.freeze({
+      var src = Object.freeze({
         __proto__: null,
         TargetNames,
         default: getTargets$1,
@@ -60390,7 +60390,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
       function declare(x2) {
         return x2;
       }
-      var pluginUtilsShim = /* @__PURE__ */ Object.freeze({
+      var pluginUtilsShim = Object.freeze({
         __proto__: null,
         declare,
         declarePreset: declare
@@ -60418,7 +60418,7 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         };
       });
       var lib$a = {};
-      var require$$0$2 = /* @__PURE__ */ getAugmentedNamespace(pluginUtilsShim);
+      var require$$0$2 = getAugmentedNamespace(pluginUtilsShim);
       Object.defineProperty(lib$a, "__esModule", {
         value: true
       });
@@ -87041,9 +87041,9 @@ var e,t,r="function"==typeof Symbol?Symbol:{},n=r.iterator||"@@iterator",o=r.toS
         return helpers$2;
       }
       var lib$7 = {};
-      var require$$1$1 = /* @__PURE__ */ getAugmentedNamespace(src);
+      var require$$1$1 = getAugmentedNamespace(src);
       var utils$3 = {};
-      var require$$5 = /* @__PURE__ */ getAugmentedNamespace(_babel);
+      var require$$5 = getAugmentedNamespace(_babel);
       var _templateObject$c, _templateObject2$6, _templateObject3$3;
       var hasRequiredUtils$3;
       function requireUtils$3() {
@@ -122880,8 +122880,8 @@ This problem is likely caused by another plugin injecting
         };
       });
       var lib$3 = {};
-      var require$$3 = /* @__PURE__ */ getAugmentedNamespace(src$3);
-      var require$$4 = /* @__PURE__ */ getAugmentedNamespace(src$1);
+      var require$$3 = getAugmentedNamespace(src$3);
+      var require$$4 = getAugmentedNamespace(src$1);
       Object.defineProperty(lib$3, "__esModule", {
         value: true
       });
@@ -129476,7 +129476,7 @@ This problem is likely caused by another plugin injecting
         console.warn("You are using the in-browser Babel transformer. Be sure to precompile your scripts for production - https://babeljs.io/docs/setup/");
         loadScripts(transformFn, jsxScripts);
       }
-      var packages = /* @__PURE__ */ Object.freeze({
+      var packages = Object.freeze({
         __proto__: null,
         generator: index$2,
         parser: index$5,
